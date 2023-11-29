@@ -49,7 +49,7 @@ class StartingPage extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.symmetric(vertical: 8),
                         child: Text(
-                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ',
+                          'Welcome to your fitness hub! Achieve your goals with personalized meal plans, expert supplement advice, and easy training scheduling.',
                           style: TextStyle(
                             fontSize: 18,
                             color: Colors.white,
@@ -71,10 +71,10 @@ class StartingPage extends StatelessWidget {
                       onPressed: () {
                         Navigator.push(
                           context,
-                           MaterialPageRoute(
-                             builder: (context) => ProgressPage(),
-                            ),
-                            );
+                          MaterialPageRoute(
+                            builder: (context) => ProgressPage(),
+                          ),
+                        );
                       },
                       style: ButtonStyle(
                         backgroundColor: MaterialStateProperty.all(
